@@ -1,0 +1,15 @@
+:root {
+  /*Color mode*/
+  --primary-collor: #bee7f9;
+
+  /*Font and typography*/
+
+  --body-font: Arial, sans-serif;
+
+  --h1-font-size: 80pt;
+  --h2-font-size: 36pt;
+
+  /* Font weight*/
+  --font-regular: 400;
+  --font-bold: 600;
+}
