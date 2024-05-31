@@ -16,9 +16,15 @@ const Icone = styled.img`
 const Icones = () => {
   return (
     <IconeContainer>
-      <Icone src={email} alt="logo email"></Icone>
-      <Icone src={github} alt="logo github"></Icone>
-      <Icone src={linkedin} alt="logo linkedin"></Icone>
+      <a href="mailto:" target="_blank">
+        <Icone src={email} alt="logo email"></Icone>
+      </a>
+      <a href="https://github.com" target="_blank">
+        <Icone src={github} alt="logo github"></Icone>
+      </a>
+      <a href="https://linkedin.com" target="_blank">
+        <Icone src={linkedin} alt="logo linkedin"></Icone>
+      </a>
     </IconeContainer>
   );
 };
