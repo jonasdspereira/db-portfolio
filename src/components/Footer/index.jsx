@@ -7,19 +7,39 @@ const FooterContainer = styled.footer`
   height: 60px;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 10px;
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
-  right: 0;
+  width: 100%;
+  z-index: 1000;
+
+  @media (max-width: 768px) {
+    height: 50px;
+  }
+
+  @media (max-width: 480px) {
+    height: 40px;
+  }
 `;
 
-const FooterImage = styled.img``;
+const FooterImage = styled.img`
+  width: 250px;
+
+  @media (max-width: 768px) {
+    width: 200px;
+  }
+
+  @media (max-width: 480px) {
+    width: 150px;
+  }
+`;
 
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterImage src={footerimg} />
+      <FooterImage src={footerimg} alt="Footer Logo" />
     </FooterContainer>
   );
 };

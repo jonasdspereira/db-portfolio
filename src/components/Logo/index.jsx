@@ -13,7 +13,10 @@ const LogoImage = styled.img`
 const Logo = () => {
   return (
     <LogoContainer>
-      <LogoImage src={logo} alt="logo db" />
+      <a href="https://db.tec.br/" target="_blank">
+        {" "}
+        <LogoImage src={logo} alt="logo db" />
+      </a>
     </LogoContainer>
   );
 };

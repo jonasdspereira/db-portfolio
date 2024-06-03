@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 
 const Projetos = () => {
-  return <Navbar />;
+  return;
 };
 
 export default Projetos;
