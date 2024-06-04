@@ -41,4 +41,4 @@ ou
 yarn dev
 ```
 
-Isso iniciará o servidor de desenvolvimento do Vite. Agora você pode acessar a aplicação em seu navegador padrão, geralmente em http://localhost:3000.
+Isso iniciará o servidor de desenvolvimento do Vite. Agora você pode acessar a aplicação em seu navegador padrão, geralmente em http://localhost:[PORTA].
