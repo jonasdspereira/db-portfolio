@@ -25,7 +25,7 @@ git clone https://github.com/jonasdspereira/db-portfolio.git
 Navegue até o diretório do projeto e instale as dependências usando npm ou yarn:
 
 ```bash
-cd meu-portfolio
+cd db-portfolio
 npm install
 ```
 
