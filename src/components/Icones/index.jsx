@@ -16,13 +16,13 @@ const Icone = styled.img`
 const Icones = () => {
   return (
     <IconeContainer>
-      <a href="mailto:" target="_blank">
+      <a href="mailto:jonas.pereira@dbserver.com.br" target="_blank">
         <Icone src={email} alt="logo email"></Icone>
       </a>
-      <a href="https://github.com" target="_blank">
+      <a href="https://github.com/jonasdspereira" target="_blank">
         <Icone src={github} alt="logo github"></Icone>
       </a>
-      <a href="https://linkedin.com" target="_blank">
+      <a href="https://www.linkedin.com/in/jnsprr/" target="_blank">
         <Icone src={linkedin} alt="logo linkedin"></Icone>
       </a>
     </IconeContainer>

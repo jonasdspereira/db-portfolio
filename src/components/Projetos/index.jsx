@@ -1,6 +1,7 @@
 import React from "react";
 import styled, { ThemeProvider } from "styled-components";
-import img from "./img.jpg";
+import api from "./api.jpg";
+import weather from "./weather.jpg";
 
 const theme = {
   breakpoints: {
@@ -70,6 +71,7 @@ const ProjetosCard = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  background: rgba(245, 245, 245, 1);
 `;
 
 const ProjetosCardImg = styled.img`
@@ -79,12 +81,15 @@ const ProjetosCardImg = styled.img`
 `;
 const ProjetosCardTitulo = styled.h1`
   margin: 10px;
+  font-size: 26px;
 `;
 const ProjetosCardSubTitulo = styled.h3`
   margin: 10px;
+  font-size: 16px;
+  color: var(--pink-color);
 `;
 const ProjetosCardDescricao = styled.p`
-  margin: 35px 10px 0 10px;
+  margin: 25px 10px 0 10px;
 `;
 const ProjetosCardBotao = styled.button`
   width: 275px;
@@ -101,6 +106,11 @@ const ProjetosCardBotao = styled.button`
   cursor: pointer;
 `;
 
+const ProjetosCardLink = styled.a`
+  color: var(--white-color);
+  text-decoration: none;
+`;
+
 const Projetos = () => {
   return (
     <ThemeProvider theme={theme}>
@@ -111,13 +121,52 @@ const Projetos = () => {
         </ProjetosNome>
         <ProjetosCardContainer>
           <ProjetosCard>
-            <ProjetosCardImg src={img}></ProjetosCardImg>
-            <ProjetosCardTitulo>Calculadora</ProjetosCardTitulo>
-            <ProjetosCardSubTitulo>HTML, CSS, JS</ProjetosCardSubTitulo>
+            <ProjetosCardImg src={weather}></ProjetosCardImg>
+            <ProjetosCardTitulo>WeatherApp DB - Frontend</ProjetosCardTitulo>
+            <ProjetosCardSubTitulo>HTML, CSS, JS, React</ProjetosCardSubTitulo>
             <ProjetosCardDescricao>
-              Sua descrição sobre o projeto não pode ultrapassar 7 linhas.
+              Aplicação frontend para cadastro de previsão de tempo, possui campos de cadastro de cidade, data, temperatura e informações adicionais.
             </ProjetosCardDescricao>
-            <ProjetosCardBotao>Acessar</ProjetosCardBotao>
+            <ProjetosCardBotao>
+              <ProjetosCardLink
+                href="https://github.com/jonasdspereira/DB-desafio-weatherapp-front/tree/main/weatherapp"
+                target="_blank"
+              >
+                Acessar
+              </ProjetosCardLink>
+            </ProjetosCardBotao>
+          </ProjetosCard>
+          <ProjetosCard>
+            <ProjetosCardImg src={api}></ProjetosCardImg>
+            <ProjetosCardTitulo>WeatherApp DB API - Backend</ProjetosCardTitulo>
+            <ProjetosCardSubTitulo>Java, Spring Boot</ProjetosCardSubTitulo>
+            <ProjetosCardDescricao>
+              API backend para cadastro de previsão de tempo, que se comunica com o frontend e recebe as informações para seres persistidas no banco de dados.
+            </ProjetosCardDescricao>
+            <ProjetosCardBotao>
+              <ProjetosCardLink
+                href="https://github.com/jonasdspereira/DB-desafio-weatherapp-back"
+                target="_blank"
+              >
+                Acessar
+              </ProjetosCardLink>
+            </ProjetosCardBotao>
+          </ProjetosCard>
+          <ProjetosCard>
+            <ProjetosCardImg src={api}></ProjetosCardImg>
+            <ProjetosCardTitulo> API Endereços - Backend</ProjetosCardTitulo>
+            <ProjetosCardSubTitulo>Java, Spring Boot</ProjetosCardSubTitulo>
+            <ProjetosCardDescricao>
+              API para cadastro de endereços.
+            </ProjetosCardDescricao>
+            <ProjetosCardBotao>
+              <ProjetosCardLink
+                href="https://github.com/jonasdspereira/api"
+                target="_blank"
+              >
+                Acessar
+              </ProjetosCardLink>
+            </ProjetosCardBotao>
           </ProjetosCard>
         </ProjetosCardContainer>
       </ProjetosContainer>
