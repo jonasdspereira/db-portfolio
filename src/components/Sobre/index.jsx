@@ -108,7 +108,7 @@ const SobreDescricao = styled.div`
 
 const SobreTexto = styled.p`
   font-size: 10pt;
-  width: 400px;
+  width: 500px;
 
   @media (max-width: ${(props) => props.theme.breakpoints.tablet}) {
     font-size: 9pt;
@@ -211,13 +211,16 @@ const Sobre = () => {
           <SobreDescricao>
             <SobreAntetitulo>Sobre mim</SobreAntetitulo>
             <SobreTexto>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam
-              urna, euismod at porttitor in, dignissim eu mauris. In sem nibh,
-              viverra eu risus sed, accumsan luctus dui. Fusce ex neque, maximus
-              quis dui et, rutrum sollicitudin sem. elit. Sed diam urna, euismod
-              at porttitor in, dignissim eu mauris. In sem nibh, viverra eu
-              risus sed, accumsan luctus dui. Fusce ex neque, maximus quis dui
-              et, rutrum sollicitudin sem.
+              Sempre fui fascinado pela tecnologia e por sua capacidade de
+              facilitar a vida das pessoas. Iniciei minha jornada profissional
+              como 'o menino de TI', prestando suporte durante 2 anos.
+              Posteriormente, tornei-me um freelancer especializado na criação
+              de sites usando a plataforma WordPress com abordagem de
+              desenvolvimento de baixo código. Em 2024, dei um passo
+              significativo ao realizar uma transição de carreira para
+              Desenvolvedor de Software. Tenho conhecimentos sólidos em frontend
+              (HTML, CSS e JS), backend (Java e Spring Boot) e experiência em
+              metodologias ágeis.
             </SobreTexto>
           </SobreDescricao>
         </SobreCol>
