@@ -9,8 +9,8 @@ const FooterContainer = styled.footer`
   justify-content: center;
   align-items: center;
   padding: 10px;
-  position: fixed;
   left: 0;
+  position: fixed;
   bottom: 0;
   width: 100%;
   z-index: 1000;
