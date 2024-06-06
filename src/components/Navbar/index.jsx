@@ -16,7 +16,6 @@ const Nav = styled.nav`
 const Lista = styled.ul`
   display: flex;
   list-style: none;
-  transition: transform 0.3s ease-in-out;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -26,8 +25,7 @@ const Lista = styled.ul`
     right: 0;
     height: 100vh;
     background-color: var(--primary-color);
-    transform: ${(props) =>
-      props.open ? "translateX(0)" : "translateX(100%)"};
+    display: ${(props) => (props.open ? "flex" : "none")};
     padding-top: 60px;
     padding-left: 20px;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
@@ -106,7 +104,7 @@ const IconesContainer = styled.div`
   }
 `;
 
-const IconesResponsive = styled.div`
+const IconesResponsivo = styled.div`
   display: none;
 
   @media (max-width: 768px) {
@@ -142,6 +140,7 @@ const Navbar = () => {
         <div></div>
         <div></div>
       </Hamburger>
+
       <Lista open={menuOpen}>
         <CloseButton onClick={() => setMenuOpen(false)}>X</CloseButton>
         <Item>
@@ -155,9 +154,9 @@ const Navbar = () => {
         <Item>
           <StyledLink to="/projetos">Projetos</StyledLink>
         </Item>
-        <IconesResponsive>
+        <IconesResponsivo>
           <Icones />
-        </IconesResponsive>
+        </IconesResponsivo>
       </Lista>
       <IconesContainer>
         <Icones />
