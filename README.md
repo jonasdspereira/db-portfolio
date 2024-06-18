@@ -3,13 +3,19 @@
 Este é um projeto desenvolvido utilizando Vite como bundler e React como biblioteca de interface. 
 Aqui você encontrará informações sobre mim, minhas habilidades e projetos.
 
-## Como Executar
+## Deploy
+
+Está disponível na plataforma Vercel.
+[Deploy do portfólio](https://jonas-db-portfolio.vercel.app/)
+
+
+## Como Executar localmente
 
 Siga as instruções abaixo para executar a aplicação localmente em sua máquina:
 
 ### Pré-requisitos
 
-- [Node.js](https://nodejs.org/) (v14 ou superior)
+- [Node.js](https://nodejs.org/) (v14 ou superior) - Node.js é uma plataforma de desenvolvimento que permite a execução de código JavaScript no lado do servidor.
 - npm ou yarn (npm é instalado automaticamente com o Node.js)
 
 ### Passo 1: Clonar o repositório
