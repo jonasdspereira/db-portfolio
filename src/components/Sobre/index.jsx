@@ -95,7 +95,7 @@ const SobreSubtitulo = styled.h3`
 `;
 
 const SobreDescricao = styled.div`
-  margin: 80px 0 0 100px;
+  margin: 60px 0 0 100px;
 
   @media (max-width: ${(props) => props.theme.breakpoints.tablet}) {
     margin: 40px 0 0 20px;
@@ -147,7 +147,7 @@ const SobreImg = styled.img`
 `;
 
 const SobreHabilidades = styled.div`
-  margin: 80px 0 0 100px;
+  margin: 60px 0 0 100px;
   width: 250px;
 
   @media (max-width: ${(props) => props.theme.breakpoints.tablet}) {
@@ -190,7 +190,7 @@ const NivelHabilidade = ({ nivel }) => {
   return (
     <CirculoContainer>
       {Array.from({ length: 5 }, (_, i) => (
-        <Circulo key={i} preenchido={i >= 5 - nivel} />
+        <Circulo key={i} preenchido={i < nivel} />
       ))}
     </CirculoContainer>
   );

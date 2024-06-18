@@ -13,7 +13,7 @@ const theme = {
 const ProjetosContainer = styled.div`
   display: grid;
   justify-content: space-between;
-  margin: 40px 100px;
+  margin: 30px 100px;
 
   @media (max-width: ${(props) => props.theme.breakpoints.tablet}) {
     grid-template-columns: 1fr;

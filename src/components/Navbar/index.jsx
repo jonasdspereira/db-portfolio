@@ -147,7 +147,7 @@ const Navbar = () => {
           <StyledLink to="/">Sobre</StyledLink>
         </Item>
         <Item>
-          <DownloadLink href={curriculumLink} download>
+          <DownloadLink href={curriculumLink} target="_blank">
             Currículo
           </DownloadLink>
         </Item>
