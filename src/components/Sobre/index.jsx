@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { ThemeProvider } from "styled-components";
-import jonas from "./jonas.jfif";
+import jonas from "./jonas.jpeg";
 
 const theme = {
   colors: {
@@ -205,7 +205,7 @@ const Sobre = () => {
             <SobreAntetitulo>Olá, meu nome é</SobreAntetitulo>
             <SobreTitulo>Jonas Pereira</SobreTitulo>
             <SobreSubtitulo>
-              Sou desenvolvedor de software na DBServer.
+              Sou trainee em desenvolvimento de software na DBServer.
             </SobreSubtitulo>
           </SobreNome>
           <SobreDescricao>
@@ -218,7 +218,7 @@ const Sobre = () => {
               de sites usando a plataforma WordPress com abordagem de
               desenvolvimento de baixo código. Em 2024, dei um passo
               significativo ao realizar uma transição de carreira para
-              Desenvolvedor de Software. Tenho conhecimentos sólidos em frontend
+              Desenvolvedor de Software. Tenho conhecimentos em frontend
               (HTML, CSS e JS), backend (Java e Spring Boot) e experiência em
               metodologias ágeis.
             </SobreTexto>
