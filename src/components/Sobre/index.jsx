@@ -134,7 +134,7 @@ const SobreImagem = styled.div`
 `;
 
 const SobreImg = styled.img`
-  width: 232px;
+  width: 332px;
   border-radius: 10px;
 
   @media (max-width: ${(props) => props.theme.breakpoints.tablet}) {
@@ -155,7 +155,7 @@ const SobreHabilidades = styled.div`
   }
 
   @media (max-width: ${(props) => props.theme.breakpoints.mobile}) {
-    margin: 20px 0 0 10px;
+    margin: 20px 0 60px 10px;
   }
 `;
 
