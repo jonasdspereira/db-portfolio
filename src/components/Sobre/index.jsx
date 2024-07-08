@@ -107,16 +107,16 @@ const SobreDescricao = styled.div`
 `;
 
 const SobreTexto = styled.p`
-  font-size: 10pt;
+  font-size: 15pt;
   width: 500px;
 
   @media (max-width: ${(props) => props.theme.breakpoints.tablet}) {
-    font-size: 9pt;
+    font-size: 12pt;
     width: 300px;
   }
 
   @media (max-width: ${(props) => props.theme.breakpoints.mobile}) {
-    font-size: 8pt;
+    font-size: 12pt;
     width: 100%;
   }
 `;
