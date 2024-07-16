@@ -249,6 +249,12 @@ const Sobre = () => {
               <SobreOpcao>
                 SPRING BOOT <NivelHabilidade nivel={2} />
               </SobreOpcao>
+              <SobreOpcao>
+                SQL <NivelHabilidade nivel={4} />
+              </SobreOpcao>
+              <SobreOpcao>
+                POWER BI <NivelHabilidade nivel={3} />
+              </SobreOpcao>
             </SobreOpcoes>
           </SobreHabilidades>
         </SobreCol>
