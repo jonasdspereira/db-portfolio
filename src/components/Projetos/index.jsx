@@ -89,7 +89,7 @@ const ProjetosCardSubTitulo = styled.h3`
   color: var(--pink-color);
 `;
 const ProjetosCardDescricao = styled.p`
-  margin: 25px 10px 0 10px;
+  margin: 5px 10px 0 10px;
 `;
 const ProjetosCardBotao = styled.button`
   width: 275px;
@@ -162,6 +162,24 @@ const Projetos = () => {
             <ProjetosCardBotao>
               <ProjetosCardLink
                 href="https://github.com/jonasdspereira/api"
+                target="_blank"
+              >
+                Acessar
+              </ProjetosCardLink>
+            </ProjetosCardBotao>
+          </ProjetosCard>
+          <ProjetosCard>
+            <ProjetosCardImg src={weather}></ProjetosCardImg>
+            <ProjetosCardTitulo> Dashboard - WeatherApp</ProjetosCardTitulo>
+            <ProjetosCardSubTitulo>Power Bi</ProjetosCardSubTitulo>
+            <ProjetosCardDescricao>
+              Dashboard que exibe a médias de temperatura, precipitação, umidade e velocidade do vento para as cidades
+              do Brasil, de acordo com o intervalo de data buscada pelo uusário. Há também a contagem de previsões do 
+              período.
+            </ProjetosCardDescricao>
+            <ProjetosCardBotao>
+              <ProjetosCardLink
+                href="https://app.powerbi.com/view?r=eyJrIjoiMWRjOGY3Y2YtZGQ2NS00ZjlhLWEwOWItNDQ4NTVmMWIzY2U1IiwidCI6IjI1ZjQ5OWQ5LTlhOWQtNDI4OS1iYTQ0LWU3ZDFjNTM1OGI2MSJ9"
                 target="_blank"
               >
                 Acessar
