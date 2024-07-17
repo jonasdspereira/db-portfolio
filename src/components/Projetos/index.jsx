@@ -173,9 +173,9 @@ const Projetos = () => {
             <ProjetosCardTitulo> Dashboard - WeatherApp</ProjetosCardTitulo>
             <ProjetosCardSubTitulo>Power Bi</ProjetosCardSubTitulo>
             <ProjetosCardDescricao>
-              Dashboard que exibe a médias de temperatura, precipitação, umidade e velocidade do vento para as cidades
+              Dashboard que exibe as médias de temperatura, precipitação, umidade e velocidade do vento para as cidades
               do Brasil, de acordo com o intervalo de data buscada pelo uusário. Há também a contagem de previsões do 
-              período.
+              período selecionado.
             </ProjetosCardDescricao>
             <ProjetosCardBotao>
               <ProjetosCardLink
